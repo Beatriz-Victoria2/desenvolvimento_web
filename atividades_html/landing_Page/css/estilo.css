@@ -1,13 +1,11 @@
-body {
-    font-family: roboto, Playfair;
-    padding: 0; margin: 0;
-    background-color: black;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 header {
     color: #E669D0;
-    text-align: center;
-    padding: 20px;
+    ;
 }
 
 nav {
@@ -16,7 +14,7 @@ nav {
     display: flex;
 }
 
-nav a:hover {
-color: #5277E6;
-
+.container {
+    display: flex;
+    align-items: center;
 }
