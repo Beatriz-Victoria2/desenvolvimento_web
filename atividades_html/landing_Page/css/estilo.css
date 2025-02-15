@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
 
 header {
     color: #E669D0;
-    ;
 }
 
 nav {
@@ -18,3 +18,4 @@ nav {
     display: flex;
     align-items: center;
 }
+
