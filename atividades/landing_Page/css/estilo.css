@@ -7,9 +7,9 @@
 header {
     height: 70px;
     background-color: #000;
-    padding: 100px;
+    padding: 50px;
     font-size: 2.5em;
-    color: #fff;
+    color: violet;
 }
 
 nav ul{
