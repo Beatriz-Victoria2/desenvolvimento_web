@@ -40,6 +40,11 @@ li, a {
     color: #ee82ee;
     background-color: #000;
     transition: 0.5;
+    list-style-type: none;
+    margin: 0;
+    display:flex ;
+    justify-content: center
+    
 }
 
 .menu li::before {
