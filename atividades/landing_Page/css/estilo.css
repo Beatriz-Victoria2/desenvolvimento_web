@@ -13,9 +13,9 @@ header {
     text-align: center;
 }
 
-main {
+.container {
     width: 90%;
-    margin: auto;
+    margin: 20px auto;
     align-items: center;
     justify-content: center;
 }
@@ -27,30 +27,20 @@ nav ul{
     text-align: center;
     list-style: none;
     justify-content: center;
+    background-color: #ee82ee;
 }
 
 li, a {
     text-decoration: none;
     width: 148px;
-    color: #ee82ee;
+    color: white;
     padding: 15px;
     border-radius: 2px;
 }
-.menu li:hover{
+
+li:hover{
     color: #ee82ee;
     background-color: #000;
-    transition: 0.5;
-    list-style-type: none;
-    margin: 0;
-    display:flex ;
-    justify-content: center
-    
-}
-
-.menu li::before {
-    content: "";
-    position: absolute;
-    top: 0;
 }
 
 section{
@@ -60,6 +50,7 @@ section{
     padding: 10px;
     height: 350px;
     border: 2px solid #999;
+    text-align: center;
 }
 
 .conteudo-inicial{
@@ -82,6 +73,16 @@ img {
     height: 350px;
 }
 
-.left{
+div {
+    padding: 15px;
+}
+
+.conteudo img {
     float: left;
+    margin-right: 15px;
+}
+
+.conteudo-right img{
+    float: right;
+    margin-left: 15px;
 }
