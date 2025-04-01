@@ -15,7 +15,7 @@
 
   #event-subscription {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url("../img/hrz-5.jpg");
+      url("../img/hrz-2\ \(1\).jpg");
     background-position: center;
     background-size: cover;
     height: 15h;
@@ -36,7 +36,7 @@
   }
   
   #disclaimer .about-event {
-    font-size: 2em;
+    font-size: 1rem;
     text-transform: uppercase;
     max-width: 350px;
     font-weight: bold;
