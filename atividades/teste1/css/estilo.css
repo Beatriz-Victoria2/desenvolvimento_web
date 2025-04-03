@@ -58,6 +58,7 @@
    width: 90%;
 }
 
+<<<<<<< HEAD:atividades/teste1/css/styles.css
 .texto {
   display: flex;
   /* flex-direction: row; */
@@ -66,19 +67,23 @@
   height: 350px;
   text-align: center;
   align-items: center;
+=======
+
+#subscription-form {
+  background-color: var(--secondary);
+  padding:5rem;
+  max-width: 22%;
+>>>>>>> 0ee74434056c2e0bc9f117c4c3792106a625cec6:atividades/teste1/css/estilo.css
 }
 
-  #subscription-form {
-    background-color: var(--secondary);
-    padding:5rem;
-    max-width: 22%;
-  }
+#subscription-form p {
+  font-size: 1.5em;
+  color: var(--text-secondary);
+  margin-bottom: 1em;
   
-  #subscription-form p {
-    font-size: 1.5em;
-    color: var(--text-secondary);
-    margin-bottom: 1em;
+}
 
+<<<<<<< HEAD:atividades/teste1/css/styles.css
   }
 
 --- menu ---
@@ -96,6 +101,22 @@
   
   .form-group input,
   .form-group select {
+=======
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+}
+
+.form-group label {
+  color: var(--text-tertiary);
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+>>>>>>> 0ee74434056c2e0bc9f117c4c3792106a625cec6:atividades/teste1/css/estilo.css
     padding: 6px 8px;
     border-radius: 5px;
     border: none;
@@ -149,15 +170,15 @@
     background-position: center;
     margin-bottom: 1em;
   }
-
-.benefit-img {
-  box-shadow: 5px 5px 10px rgba(33, 34, 33, 0.5);
-}
+  
+  .benefit-img {
+    box-shadow: 5px 5px 10px rgba(33, 34, 33, 0.5);
+  }
   
   #benefit-1 {
     background-image: url("../img/sqr-1.jpg");
   }
-
+  
   #benefit-2 {
     background-image: url("../img/sqr-2.jpg");
   }
@@ -165,12 +186,12 @@
   #benefit-3 {
     background-image: url("../img/sqr-3.jpg");
   }
-
+  
   
   #benefit-4{
     background-image: ur"(../img/hrz-6.jpg);
   }
-
+  
   #benefit-5{
     background-image: url("../img/hrz-3\ \(1\).jpg");
   }
@@ -178,12 +199,44 @@
   #benefit-6{
     background-image: url("../img/hrz-1\ \(1\).jpg");
   }
-
+  
   #benefit-7{
     background-image: url("../img/hrz-2\ \(1\).jpg");
   }
+<<<<<<< HEAD:atividades/teste1/css/styles.css
 
 
+=======
+  
+  .section{
+    display: flex;
+    /* flex-direction: row; */
+    margin: 20px;
+    padding: 10px;
+    height: 350px;
+    border: 2px solid #e4dfdf;
+    text-align: center;
+  }
+  
+  /* Event location */
+  #location {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/hrz-1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    margin-bottom: 3em;
+  }
+  
+  #address,
+  #about-location {
+    max-width: 30%;
+  }
+>>>>>>> 0ee74434056c2e0bc9f117c4c3792106a625cec6:atividades/teste1/css/estilo.css
   
  
 --- local ---
@@ -214,10 +267,11 @@
     line-height: 1.5em;
   }
   
-
+  
   #details {
-    width: 80%
-    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    
   }
   
   .detail {
@@ -225,15 +279,22 @@
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 4em;
+    text-align: center;
   }
+<<<<<<< HEAD:atividades/teste1/css/styles.css
 
+=======
+  
+  
+  
+>>>>>>> 0ee74434056c2e0bc9f117c4c3792106a625cec6:atividades/teste1/css/estilo.css
   .detail img {
     width: 50%;
   }
-
-.detail img {
-  box-shadow: 5px 5px 10px rgba(25, 26, 25, 0.5);
-}
+  
+  .detail img {
+    box-shadow: 5px 5px 10px rgba(25, 26, 25, 0.5);
+  }
   .detail h3 {
     margin-bottom: 1em;
     font-size: 2em;
@@ -248,7 +309,7 @@
   .detail-description {
     width: 100%;
     padding-left: 2em;
-  
+    
   }
   
   #detail-3 .detail-description {
@@ -265,6 +326,7 @@
   
   .detail-description ul li:last-child {
     font-weight: bold;
+<<<<<<< HEAD:atividades/teste1/css/styles.css
    color: #000;
   }
  
@@ -320,90 +382,173 @@
       flex-direction: column;
       height: auto;
     }
-  
-    #disclaimer {
-      padding: 2em;
+=======
+    color: #000;  }
+    
+    #cta {
+      height: 300px;
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("../img/hrz-6.jpg");
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      color: var(--text-color);
     }
-  
-    #disclaimer h2 {
-      margin-bottom: 0.5em;
+    
+    #cta h3 {
+      margin-bottom: 1.2em;
+      font-size: 2em;
+      font-weight: 500;
+      
     }
+    
+    #cta .btn {
+      width: 30%;
+      margin: 0 auto;
+      font-weight: 600;
+      font-size: 1.2em;
+    }
+    
+    
+    .clientes {
+      background-color: #2e2b2b;
+      text-align: center;
+      display: flex;
+      display: flex;
+      margin: 20px;
+      padding: 20px;
+      height: 80px;
+    }
+    
+
+    
+    .nav ul{
+      background-color: #1b1b1b;
+  }
+
+li, a {
+ 
+ text-decoration: none;
+ background-color: #5d5d5d
+}
+
+
+.footer p {
+color: #000;
+background-color: #5d5d5d;
+text-align: center;
+}
+
+
+@media (max-width: 450px) {
+ 
+  #event-subscription {
+    flex-direction: column;
+    height: auto;
+  }
   
+  #disclaimer {
+    padding: 2em;
+  }
+  
+  #disclaimer h2 {
+    margin-bottom: 0.5em;
+  }
+  
+  #subscription-form {
+    max-width: 70%;
+    margin-bottom: 2em;
+  }
+  
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 2em;
+  }
+  
+  .benefit {
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
+>>>>>>> 0ee74434056c2e0bc9f117c4c3792106a625cec6:atividades/teste1/css/estilo.css
+  
+  /* Event location */
+  #location {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 2em 0;
+  }
+  
+  #address {
+    order: 2;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+<<<<<<< HEAD:atividades/teste1/css/styles.css
     #subscription-form {
       max-width: 70%;
       margin-bottom: 2em;
     }
     - - - - - -
+=======
+  #address i {
+    margin: 0.3em 0;
+  }
+>>>>>>> 0ee74434056c2e0bc9f117c4c3792106a625cec6:atividades/teste1/css/estilo.css
   
-    /* Benefits section */
-    .benefits {
-      flex-direction: column;
-      align-items: center;
-      width: auto;
-      padding: 2em;
-    }
+  #about-location {
+    order: 1;
+    max-width: 100%;
+  }
   
-    .benefit {
-      max-width: 100%;
-      margin-bottom: 2em;
-    }
+  #about-location h3 {
+    margin-bottom: 0;
+  }
   
-    /* Event location */
-    #location {
-      flex-direction: column;
-      height: auto;
-      text-align: center;
-      padding: 2em 0;
-    }
-  
-    #address {
-      order: 2;
-      flex-direction: column;
-      max-width: 100%;
-    }
-  
-    #address i {
-      margin: 0.3em 0;
-    }
-  
-    #about-location {
-      order: 1;
-      max-width: 100%;
-    }
-  
-    #about-location h3 {
-      margin-bottom: 0;
-    }
-  
-    #about-location p {
-      display: none;
-    }
+  #about-location p {
+    display: none;
+  }
   
     .detail {
       flex-direction: column;
       margin-bottom: 0.5em;
 
     }
-  
+    
     .detail img {
       width: 100%;
       margin: 2em 0;
     }
-  
+    
     #detail-1 img {
       display: none;
     }
-  
+    
     .detail-description {
       padding: 0;
     }
-  
+    
     #detail-3 img {
       order: 2;
     }
-  
+    
     #detail-3 .detail-description {
       order: 1;
     }
+<<<<<<< HEAD:atividades/teste1/css/styles.css
   
    
+=======
+    
+    /* Call to Action Section */
+    #cta .btn {
+      width: 80%;
+    }
+  
+>>>>>>> 0ee74434056c2e0bc9f117c4c3792106a625cec6:atividades/teste1/css/estilo.css
