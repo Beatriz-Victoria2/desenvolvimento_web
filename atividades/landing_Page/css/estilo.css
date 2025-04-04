@@ -4,12 +4,20 @@
     font-family: "Roboto", sans-serif;
 }
 
+* {
+    background-color: rgb(128, 125, 122);
+}
+
+
+
+
+
 header {
     height: 50vh;
-    background-color: #000;
+    background-color: rgb(128, 125, 122);
     padding: 50px;
     font-size: 2.5em;
-    color: #ee82ee;
+    color:rgb(128, 125, 122) 
     text-align: center;
 }
 
@@ -18,6 +26,7 @@ header {
     margin: 20px auto;
     align-items: center;
     justify-content: center;
+    background-image: url("../img/hrz-6.jpg");
 }
 
 nav ul{
@@ -27,7 +36,7 @@ nav ul{
     text-align: center;
     list-style: none;
     justify-content: center;
-    background-color: #ee82ee;
+ 
 }
 
 li, a {
@@ -37,11 +46,43 @@ li, a {
     padding: 15px;
     border-radius: 2px;
 }
+/* formulario */
+article {
+    text-align: left;
+    line-height: 1.6;
+    background-color: black;
+  }
+  
+  article a {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+  article h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+  }
+  
+  article h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 20px;
+  }
+  
+  article p {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-li:hover{
-    color: #ee82ee;
-    background-color: #000;
-}
+ /* final do formulario */
+  
+  
 
 section{
     display: flex;
@@ -49,7 +90,6 @@ section{
     margin: 20px;
     padding: 10px;
     height: 350px;
-    border: 2px solid #d42626;
     text-align: center;
 }
 
@@ -65,6 +105,7 @@ section{
 
 img {
     height: 350px;
+    width: 250px;
 }
 
 div {
