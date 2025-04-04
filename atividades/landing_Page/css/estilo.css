@@ -9,9 +9,7 @@
 }
 
 
-
-
-
+/* texto principal */
 header {
     height: 50vh;
     background-color: rgb(128, 125, 122);
@@ -21,6 +19,7 @@ header {
     text-align: center;
 }
 
+  /*  */
 .container {
     width: 90%;
     margin: 20px auto;
@@ -28,7 +27,7 @@ header {
     justify-content: center;
     background-image: url("../img/hrz-6.jpg");
 }
-
+/* menu */
 nav ul{
     display: flex;
     flex-direction: row;
@@ -45,35 +44,18 @@ li, a {
     color: white;
     padding: 15px;
     border-radius: 2px;
+    background-color: black;
 }
+        /*   */
 /* formulario */
 article {
     text-align: left;
     line-height: 1.6;
     background-color: black;
+
   }
   
-  article a {
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-  }
-  article h2 {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 40px;
-  }
-  
-  article h3 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2em;
-    margin: 20px;
-  }
-  
+
   article p {
     margin-top: 20px;
     margin-left: 50px;
@@ -86,13 +68,12 @@ article {
 
 section{
     display: flex;
-    /* flex-direction: row; */
     margin: 20px;
     padding: 10px;
     height: 350px;
     text-align: center;
 }
-
+/* textos */
 .conteudo h1, .conteudo-right h1{
     font-size: 2rem;
 }
@@ -103,23 +84,36 @@ section{
     line-height: 25px;
 }
 
+/*  */
+
+/* imagens em geral */
 img {
-    height: 350px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     box-shadow: 5px 5px 10px rgba(47, 48, 47, 0.5);
 }
+/*  */
 
-
-
-portifolio {
-    height: 350px;
-    width: 250px;
-    align-items: center;
-}
-div {
-    padding: 15px;
+/* portifolio  */
+.portifolio {
+    display: flex;
+    width: 10%;
+    align-items:  center;
+    float: right;
 }
 
+
+
+
+.float-article img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+/*  */
+/* .conteudo da imagem */
 .conteudo img {
     float: left;
     margin-right: 15px;
