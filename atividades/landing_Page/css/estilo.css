@@ -5,7 +5,7 @@
 }
 
 * {
-    background-color: rgb(128, 125, 122);
+    background-color: rgb(165, 161, 157);
 }
 
 
@@ -106,8 +106,16 @@ section{
 img {
     height: 350px;
     width: 250px;
+    box-shadow: 5px 5px 10px rgba(47, 48, 47, 0.5);
 }
 
+
+
+portifolio {
+    height: 350px;
+    width: 250px;
+    align-items: center;
+}
 div {
     padding: 15px;
 }
@@ -121,3 +129,5 @@ div {
     float: right;
     margin-left: 15px;
 }
+
+
